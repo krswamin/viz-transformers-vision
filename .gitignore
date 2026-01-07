@@ -1,0 +1,56 @@
+# -------------------------
+# JUPYTER NOTEBOOK
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# PYTHON BYTECODE
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+
+# -------------------------
+# VIRTUAL ENVIRONMENTS
+# -------------------------
+venv/
+.env/
+.venv/
+
+# Conda environment folders
+.conda/
+conda-meta/
+*.conda
+*.lock
+
+# Ignore exported conda environment files (optional)
+environment.yml
+environment.yaml
+
+# -------------------------
+# OS FILES
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# ML ARTIFACTS
+# -------------------------
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+
+# -------------------------
+# VSCODE SETTINGS
+# -------------------------
+.vscode/
+.history/
+*.code-workspace
+
+# VSCode Jupyter kernels & temp files
+*.ipynb_convert/
